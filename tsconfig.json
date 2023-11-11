@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "types": ["jest", "node"],
+    "lib": ["es6", "dom"],
+    "paths": {
+      "*": ["*", "src/*"]
+    },
+    "baseUrl": "./src"
+  }
+}
